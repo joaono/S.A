@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TelaInicial.css">
+    <title>tela inicial</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="cima">
+
+            <div id="cima-esquerda">
+
+                <img src>
+                
+            </div>
+            
+            <div id="cima-meio">
+                
+                <button id="btnHome"  onclick="window.location.href = 'Telainicial.html'">home</button>
+                <button id="btnProdutos" onclick="window.location.href = 'TelaProdutos.html'">produtos</button>
+                <button id="btnImc" onclick="window.location.href = 'TelaImc.html'">imc</button>
+                <button id="btnSobre" onclick="window.location.href = 'TelaSobre.html'">sobre</button>
+                
+            </div>
+            
+            <div id="cimadireita">
+                
+                <button id="btnCadastrar" onload="botaoCadastro()" onclick="cadastro()">Cadastra</button><br><br>
+
+            </div>
+
+        </div>
+
+        <div id="meio">
+
+        <div id="meio-esquerda">
+
+        </div>
+
+        <div id="meio-meio">
+
+
+            <div id="cadastroMeio" > 
+                <center>
+                    <label onclick="fechar()">x</label>
+                    <h1>Cadastro</h1>
+
+                        <input id ="inputNome" placeholder="nome do usuario"><br><br>
+                        <input id="inputSenha" placeholder="senha"><br><br>
+                        <button onclick="Cadastrar()"id = "btnCadastro">cadastro</button><br>
+                        <label onclick="Logarr()">já possui conta? Ir para login!</label>
+
+                    </center>
+            
+                    
+               </div>
+                <div id="logMeio">
+                
+                                    <center>
+                                       <label onclick="fechar()">x</label>
+                                      <h1>Login do usuário</h1>  
+                                    
+                    <input id="loginNome" placeholder="nome do usuário"><br><br>
+                    <input id="loginSenha" placeholder="senhado usuário"><br><br>
+                    <button onclick="Logar()" id="btnLog">logar</button><br>
+                    <label id="loginErro"></label>
+                                    
+                                           </center>
+                                       
+                   
+               </div>
+
+            </div>
+
+        </div>
+
+        <div id="meio-direita">
+
+        </div>
+        
+        
+        <div id="baixo">
+    
+            
+        </div>
+
+    </div>
+    <script src="CodigoCentral.js"></script>
+</body>
+</html>
