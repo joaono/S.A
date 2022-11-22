@@ -1,0 +1,114 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0px;
+    
+}
+
+#container{
+    
+    height: 100%;
+    background-color:whitesmoke;
+    
+}
+
+#cima{
+
+    height: 15%;
+    width: 100%;
+    display: flex;
+    background-color:rgb(255, 255, 255);
+    
+}
+
+#cima-esquerda{
+    
+    height: 100%;
+    width: 25%;
+    background-color: blue; 
+  
+}
+
+#btnCadastrar{
+    
+    height: 25%;
+    width: 30%;
+    background-color: snow;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    
+}
+
+#btnLogin{
+    
+    height: 25%;
+    width: 30%;
+    background-color: snow;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    
+}
+
+#cima-meio{
+    
+    height: 100%;
+    width: 50%;
+    background-color: rgb(3, 255, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#cima-direita{
+    
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    
+    
+}
+
+#btnMenu{
+    
+    height: 25%;
+    width: 30%;
+    background-color: snow;
+    color: rgb(0, 0, 0);    
+    margin: 20px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+
+#baixo{
+
+    height: 85%;
+    width: 100%;
+    display: flex;
+
+}
+
+.imagemCover{
+
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    /* background-image:url(https://news.gympass.com/wp-content/uploads/2018/07/escolher-a-melhor-academia.jpg);
+
+    background-size: contain;
+    background-repeat: no-repeat; */
+
+}
