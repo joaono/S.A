@@ -1,0 +1,129 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0px;
+    
+}
+
+#container{
+    
+    height: 100%;
+    background-color:rgb(141, 141, 141);
+    
+}
+
+/* ------------------------------------------------------------------------- */
+
+#cima{
+
+    height: 15%;
+    width: 100%;
+    display: flex;
+    background-color:rgb(255, 255, 255); 
+    
+}
+
+#cima-esquerda{
+    
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 255, 255); 
+  
+}
+
+#cima-meio{
+    
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#cimadireita{
+    
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+/* ------------------------------------------------------------------------- */
+
+#btnPerfil{
+
+    height: 35%;
+    width: 45%;
+    background-color: snow;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+}
+
+#btnProdutos{
+
+    height: 35%;
+    width: 45%;
+    background-color: snow;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+}
+
+#btnImc{
+
+    height: 35%;
+    width: 45%;
+    background-color: snow;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+
+}
+
+/* ------------------------------------------------------------------------- */
+
+#meio{
+
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(141, 141, 141); 
+
+}
+
+#meio-meio{
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(141, 141, 141);
+
+}
+
+/* ------------------------------------------------------------------------- */
+
+#baixo{
+
+    height: 25%;
+    width: 100%;
+    display: flex;
+
+}
+
+
+
