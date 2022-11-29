@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="telaPerfilUser.Css">
+    <title>Perfil</title>
+</head>
+<body onload="CarregarUser(), alguemOn()">
+        
+        <div id="container">
+            
+            <div id="cima">
+
+                <div id="cima-esquerda">
+
+                    
+                </div>
+
+                <div id="cima-meio">
+
+                <button id="btnHome"  onclick="window.location.href = 'Telainicial.html'">home</button>
+                <button id="btnProdutos" onclick="window.location.href = 'TelaProdutos.html'">produtos</button>
+                <button id="btnImc" onclick="window.location.href = 'TelaImc.html'">imc</button>
+
+                </div>
+
+                <div id="cima-direita">
+
+                <button id="btnCadastrado"  onclick="window.location.href = 'TelaCadastro.html'">Cadastra</button>
+                <button id="btnPerfil" onclick="window.location.href = 'telaPerfilUser.html'">Perfil</button>
+
+                </div>
+                
+                
+            </div>
+            
+            <div id="baixo">
+                
+                <div id="telaUser">
+
+                    <h1>Perfil</h1>
+                    
+                    <input id="nomeLogado" placeholder="Nome do usuario">
+                    
+                    <input id="senhaLogado" placeholder="Senha do usuario">
+
+                    <input id="emailLogado" placeholder="Email">
+
+                    <input id="telefoneLogado" placeholder="Telefone">
+
+                    <input id="imcValor" placeholder="Imc">
+
+                    <button onclick="EditarDados()" id="btnAtualizar">Atualizar</button>
+
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <script src="CodigoCentral.js"></script>
+
+    </body>
+    </html>

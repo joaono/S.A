@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TelaCadastro.css">
+    <title>Cadastro</title>
+</head>
+<body onload="alguemOn()">
+    
+    <div id="container">
+
+        <div id="cima">
+
+            <div id="cima-esquerda">
+
+                <img id="logo" onclick="window.location.href = 'TelaHome.html'" src="Sem título.png" />
+
+            </div>
+
+            <div id="cima-meio">
+
+
+            
+            </div>
+
+            <div id="cima-direita">
+
+
+
+
+            </div>
+
+
+        </div>
+
+        <div id="meio">
+
+            <label id="UsuarioTexto">Nome de usuario</label>
+            <input id="inputNome">
+
+            <label id="SenhaTexto">Senha</label>
+            <input id="inputSenha">
+
+            <div id="interiormeio">
+                
+                <label id="cadastrozada">Cadastro</label>
+
+                <button id="btnCadastrar" onclick="Cadastrar()">Cadastrar</button>
+
+                <label id="labelzada" onclick="window.location.href = 'TelaLogin.html'" >clique aqui caso voce já possua uma conta</label>
+                <label id="erro"></label>
+
+                </div>
+
+                <div id="fundo">
+
+                </div>
+
+            </div>
+
+    </div>
+    
+    <script src="CodigoCentral.js"></script>
+</body>
+</html>

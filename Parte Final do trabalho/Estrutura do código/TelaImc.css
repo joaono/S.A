@@ -1,0 +1,312 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0px;
+}
+
+#container{
+
+    height: 100%;
+    background-color: rgb(156, 243, 189);
+
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#cima{
+
+    height: 15%;
+    width: 100%;
+    display: flex;
+    background-color:rgb(255, 255, 255); 
+    
+}
+
+#cima-esquerda{
+    
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 255, 255); 
+  
+}
+
+#cima-meio{
+    
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#cima-direita{
+    
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+#sobreTitulo{
+
+    font-size: 40px;
+    color: rgb(8, 6, 6);
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    border-color: blue;
+    position: absolute;
+    top: 150px
+
+}
+/*-----------------------------------------------------------------------------------------*/
+
+#meio{
+
+    height: 85%;
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#meio-esquerda{
+
+    height: 100%;
+    width: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#meio-meio{
+
+    height: 85%;
+    width: 80%;
+    border-radius: 30px;
+    background-color: rgb(75, 75, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#altura{
+
+    position: absolute;
+    top: 250px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 17px;
+
+}#alturatexto{
+
+    color: rgb(100, 100, 100);
+    position: absolute;
+    top: 220px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+#massa{
+
+    position: absolute;
+    top: 350px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 17px;
+
+
+}#pesotexto{
+
+    position: absolute;
+    top: 320px;
+    color: rgb(100, 100, 100);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+#meio-direita{
+
+    height: 100%;
+    width: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#baixo{
+
+    height: 0%;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*-----------------------------------------------------------------------------------------*/
+
+#btn{
+
+    width: 15%;
+    height: 7%;
+    color:rgb(0, 0, 0);
+    margin: 10px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(181, 209, 212);
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 430px;
+
+}#btn:hover{
+
+   
+    width: 15%;
+    height: 7%;
+    background-color: rgb(71, 71, 71)
+
+
+}
+#seuimc{
+
+
+    font-family:'Times New Roman', Times, serif;
+    position:absolute;
+    top: 530px;
+    font-size: 20px;
+
+
+}
+
+
+
+#btnCadastrado{
+    
+    height: 45px;
+    width: 150px;
+    border:none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: block; 
+    
+}#btnCadastrado:hover{
+
+    height: 100%;
+    width: 150px;
+    background-color:gray;
+    
+}
+
+#btnPerfil{
+
+    height: 45px;
+    width: 150px;
+    border:none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: none;
+
+
+}#btnPerfil:hover{
+
+    height: 100%;
+    width: 150px;
+    background-color:grey;
+    
+}
+
+#btnHome{
+
+    height: 45px;
+    width: 100px;
+    border:none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 800px;
+
+}#btnHome:hover{
+
+    height: 15%;
+    width: 100px;
+    background-color:grey;
+    
+}
+
+#btnProdutos{
+
+    height: 45px;
+    width: 125px;
+    border:none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    right: 585px;
+
+}#btnProdutos:hover{
+
+    height: 15%;
+    width: 125px;
+    background-color:grey;
+    
+}
+
+#btnImc{
+
+    height: 45px;
+    width: 100px;
+    border:none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    position: absolute;
+    right: 400px;
+
+}#btnImc:hover{
+
+    height: 15%;
+    width: 100px;
+    background-color:grey;
+
+}
