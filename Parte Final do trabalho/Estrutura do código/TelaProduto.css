@@ -1,0 +1,149 @@
+/* ------------------------- Corpo do HTML ---------------------------------- */
+
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0px;
+    
+}
+
+#container{
+    
+    height: 100%;
+    background-color:rgb(162, 163, 165);
+    
+}
+
+/* ------------------------ Div de Cima -------------------------- */
+
+#cima{
+
+    height: 15%;
+    width: 100%;
+    display: flex;
+    background-color:rgb(255, 255, 255); 
+    
+}
+
+#cima-esquerda{
+    
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 255, 255); 
+  
+}
+
+#cima-meio{
+    
+    height: 100%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#cimadireita{
+    
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+/* ------------------------ Div do Meio --------------------------------- */
+
+#meio{
+
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(159, 158, 161); 
+
+}
+
+#meio-meio{
+
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(164, 164, 165);
+
+
+}
+
+/* ----------------------- Div de baixo ------------------------------- */
+
+#baixo{
+
+    height: 25%;
+    width: 100%;
+    display: flex;
+
+}
+
+/* ----------------------- Botões ----------------------------- */
+
+#btnPerfil{
+
+    height: 45px;
+    width: 150px;
+    border:none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    display: none;
+
+}
+
+#btnPerfil:hover{
+
+    height: 100%;
+    width: 150px;
+    background-color:grey;
+    
+}
+
+#btnHome{
+
+    height: 45px;
+    width: 100px;
+    border:none;
+    border-radius: 0px;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    right: 800px;
+
+}
+
+#btnHome:hover{
+
+    height: 15%;
+    width: 100px;
+    background-color:grey;
+    
+}
+
