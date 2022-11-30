@@ -1,0 +1,184 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0px;
+    
+}
+
+#container{
+    
+    height: 100%;
+    background-color:deepskyblue ;
+    
+}
+
+#cima{
+    
+    height: 15%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+}
+
+#cimaDireita{
+
+    height: 100%;
+    width: 25%;    
+
+}
+
+#cimaMeio{
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: flex-end;
+}
+
+.btnCima{
+
+    height: 45px;
+    width: 100px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+
+}
+
+#cimaEsquerda{
+    
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+
+}
+
+#baixo{
+
+    height: 85%;
+    width: 100%;
+    background-color: deepskyblue ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(20deg, rgb(0, 4, 255), rgb(162, 183, 252), rgb(0, 0, 0));
+    
+}
+
+#telaUser{
+    
+    height: 80%;
+    width: 26%;
+    /* background-color: royalblue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#agaUm{
+
+   font-size: 45px;
+   color: rgb(0, 0, 0);
+}
+
+#inputNomeUsuario{
+
+    height: 29px;
+    width: 70%;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+  
+}
+#inputSenhaUsuario{
+
+    height: 29px;
+    width: 70%;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+
+}
+#inputE-mail{
+
+    height: 29px;
+    width: 70%;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+
+}
+#inputTelefone{
+
+    height: 29px;
+    width: 70%;
+    font-size: 20px;    
+    border:none;
+    border-radius: 10px;
+
+}
+/* #inputCarrinho{
+
+    height: 29px;
+    width: 70%;
+    font-size: 20px;
+    border:none;
+    border-radius: 10px;
+    
+} */
+
+#btnAtualizar{
+    
+    height: 33px;
+    width: 67%;
+    font-size: 20px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin: 20px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+button:hover{
+
+    animation-name: botao;
+    animation-duration: 0.5s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: 0 0 90px 20px black;
+
+}
+
+@keyframes botao{
+    
+    0%{
+
+        transform: scale(1);
+        
+    }
+    100%{
+
+        transform: scale(1.05);
+
+    }
+
+}
