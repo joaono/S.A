@@ -143,6 +143,10 @@ function CarregarUser(){
 
                 pos = i
 
+            }else if(userLogado == null){
+
+                window.location.href = "TelaInicial.html"
+                
             }
 
         }
@@ -234,31 +238,18 @@ function calculaIMC(){
 
     document.getElementById("seuimc").innerHTML = `Seu Indice de massa corporal é: ${imc}`
 
-    
-
     for(i=0; i < vetorUsers.length; i++){
         
     if(userLogado == vetorUsers[i].username){
 
     console.log(vetorUsers)
     vetorUsers[i].imc = imc
-    localStorage.setItem('usuarioSalvo', JSON.stringify(vetorUsers))
-        
+    localStorage.setItem('usuarioSalvo', JSON.stringify(vetorUsers))  
 
-    }/*else{
-
-
-        console.log(vetorUsers)
-        vetorUsers[i].imc = imc
-        localStorage.setItem('usuarioSalvo', JSON.stringify(vetorUsers))
-
-    }*/
-    
+    }
     
     }
-
   
-
 }
 
 function alguemOn(){
@@ -275,7 +266,71 @@ function alguemOn(){
         btnPerfil.style.display = "none"
         btnCadastrado.style.display = "block"
 
+       
+
+    }
+
+}
+
+function deletarConta(){
+
+    vetorUsers = JSON.parse(localStorage.getItem('usuarioSalvo'))
+    userLogado = JSON.parse(localStorage.getItem('userLogado'))
+
+
+
+    for(i=0;vetorUsers.length;i++){
+        
+
+        if(userLogado == vetorUsers[i].username){
+
+               
+                userLogado = null
+                vetorUsers.splice([i], 1)
+                
+                localStorage.setItem('usuarioSalvo', JSON.stringify(vetorUsers)) 
+                localStorage.setItem('userLogado', JSON.stringify(userLogado)) 
+                window.location.href = "TelaInicial.html"
+
+        }
+
+
     }
 
 
 }
+
+function Deslogar(){
+
+
+
+vetorUsers = JSON.parse(localStorage.getItem('usuarioSalvo'))
+    userLogado = JSON.parse(localStorage.getItem('userLogado'))
+
+
+
+    for(i=0;vetorUsers.length;i++){
+        
+
+        if(userLogado == vetorUsers[i].username){
+
+                
+                userLogado = null
+                
+                localStorage.setItem('userLogado', JSON.stringify(userLogado)) 
+                window.location.href = "TelaInicial.html"
+
+        }
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
