@@ -4,58 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="TelaInicial.css">
-    <title>Perfil ADM SUPREMO</title>
+    <link rel="stylesheet" href="telauser.Css">
+    <title>Tela de User</title>
 </head>
 <body>
-    <div id="container">
+        
+        <div id="container">
+            
+            <div id="cima">
 
-        <div id="cima">
+                <div id="cimaEsquerda">
 
-            <div id="cima-esquerda">
+                  
+                    
+                </div>
 
-                <img src="">
+                <div id="cimaMeio">
 
+                    <button class="btnCima"onclick="btnHome()">Home</button>
+                    <button class="btnCima"onclick="btnProdutos()">Produtos</button>
+                    <button class="btnCima"onclick="btnImc()">Imc</button>
+                    <button class="btnCima"onclick="btnSobre()">Sobre</button>
+
+                </div>
+
+                <div id="cimaDireita">
+
+                </div>
+                
+                
             </div>
             
-            <div id="cima-meio">
+            <div id="baixo">
                 
-                <button id="btnHome"  onclick="window.location.href = 'Telainicial.html'">home</button>
-                <button id="btnProdutos" onclick="window.location.href = 'TelaProdutos.html'">produtos</button>
-                <button id="btnImc" onclick="window.location.href = 'TelaImc.html'">imc</button>
+                <div id="telaUser">
+                    <h1 id="agaUm">Perfil</h1>
+                    
+                   <input id="inputNomeUsuario" placeholder="Nome">
+                    
+                    <input id="inputSenhaUsuario" placeholder="Senha">
+
+                    <input id="inputE-mail" placeholder="E-mail">
+
+                    <input id="inputTelefone" placeholder="Telefone">
+
+                    <!-- <input id="inputCarrinho" placeholder="Carrinho"> -->
+
+                    <button id="btnAtualizar">Atualizar</button>
+
+                    </div>
                 
             </div>
             
-            <div id="cimadireita">
-                
-                <button id="btnCadastrar" onload="botaoCadastro()" onclick="cadastro()">Cadastra</button><br><br>
-
-            </div> 
-
         </div>
 
-        <div id="meio">
-
-            <div id="meio-esquerda">
-
-            </div>
-
-            <div id="meio-meio">
-
-               
-
-            </div>
-
-            <div id="meio-direita">
-
-            </div> 
-        
-        </div>
-        
-        <div id="baixo">
-    
-        </div>
-
-    </div>
-</body>
-</html>
+    </body>
+    </html>
