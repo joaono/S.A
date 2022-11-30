@@ -20,6 +20,12 @@ let procurarUser = document.getElementById("procurarNome")
 let nomesUsers = document.getElementById("listarNomes")
 
 let vetorUsers = []
+let adm = {
+
+    usernameAdm: 'jobson',
+    passwordAdm: '1234',
+
+}
 
 function Cadastrar(){
 
@@ -39,6 +45,7 @@ function Cadastrar(){
         usuario.password = senhaCadastro.value
 
         vetorUsers = JSON.parse(localStorage.getItem('usuarioSalvo'))
+        adm = JSON.parse(localStorage.getItem('admSalvo'))
    
     if(vetorUsers == null){
 
